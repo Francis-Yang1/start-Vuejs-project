@@ -1,5 +1,5 @@
 {
-  "name": "yes",
+  "name": "start-vuejs-project",
   "version": "1.0.0",
   "description": "A Vue.js project",
   "author": "杨莫莫桑桑 <1285511723@qq.com>",
@@ -7,6 +7,7 @@
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
+    "start:dev": "npm run dev --watch",
     "unit": "jest --config test/unit/jest.conf.js --coverage",
     "e2e": "node test/e2e/runner.js",
     "test": "npm run unit && npm run e2e",
